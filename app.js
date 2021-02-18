@@ -11,7 +11,8 @@ var handlebars = require('express3-handlebars')
 var index = require('./routes/index');
 // Example route
 // var user = require('./routes/user');
-
+app.set('views', __dirname + '/');
+app.register('.html', require('handlebars'));
 var app = express();
 
 // all environments
