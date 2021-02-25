@@ -9,6 +9,10 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var homepage = require('./routes/paths');
+var modules = require('./routes/paths');
+var games = require('./routes/paths');
+var prize = require('./routes/paths');
 // Example route
 // var user = require('./routes/user');
 var app = express();
@@ -34,6 +38,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
+app.get('/homepage', homepage.view);
+app.get('/modules', modules.view1);
+app.get('/games', games.view2);
+app.get('/prize', prize.view3);
 
 app.get('/', function(req, res){
   res.sendFile(__dirname + 'index.html');
