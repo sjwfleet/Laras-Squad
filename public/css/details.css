@@ -27,7 +27,8 @@
 
 .row {
     display: flex;
-    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: row;
   }
   
 .column {
@@ -37,4 +38,37 @@
 
   .HomePage {
       text-align: center;
+  }
+
+  .field {
+      width: 100%;
+  }
+
+  .sign-in {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .sign-in-flex{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-in-form {
+    padding: 20px;
+  }
+
+  .our-button {
+    background-color: #1BC47D;
+    color: #F8F8F8;
+  }
+
+  input[type=username], input[type=password] {
+    padding: 12px 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
   }
