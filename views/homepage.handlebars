@@ -8,54 +8,48 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <link href="/css/details.css" rel="stylesheet">
-
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="Font">
+    <br>
     <div class="HomePage">
     <h1> Welcome </h1>
+    <h1 class="name"> </h1>
 
-        <div class="circle pfp"> 
+        <div class="pfp circle"> 
           <br>
           <br>
-          <center><img src='/images/plant.png' alt="progress plant" style="width:100%"></center>
+          <center><img src='/images/plant.png' alt="progress plant" class="img-responsive"></center>
         </div>
         <br>
         <br>
         <h2> Level 1</h2>
-        <a href="modules"><button class="dailyGoal btn btn-primary btn-lg"> <h3>Today's Goal</h3>
+        <a href="modules"><button class="dailyGoal btn btn-primary"> <h3>Today's Goal</h3>
         <p> Learn how to play the Major D scale. </p> </button> </a>
 
 
 
-    <!-- navigation bar -->
-     <hr>
-      <div class="row">
-                  <div class="column">
-                      <a href="homepage">
-                    <img src="/icons/home.png" alt="Home" style="width:35%" class="img">
-                      </a>
-                  </div>
-                 
-                  <div class="column">
-                      <a href="modules">
-                    <img src="/icons/notebook.png" alt="Notebook" style="width:35%" class="img">
-                      </a>
-                  </div>
-
-                  <div class="column">
-                    <a href="games">
-                    <img src="/icons/games.png" alt="Games" style="width:35%" class="img">
-                    </a>
-                  </div>
-
-                  <div class="column">
-                    <a href="prize">
-                      <img src="/icons/trophy.png" alt="trophy" style="width:35%" class="img">
-                    </a>
-                    </div>
-          </div>
+    <!-- navigation bar inspired by a UM Tutorial-->
+     <div class ="tab-container">
+      <div class="tab purple active">
+        <a href="homepage"><i class="fas fa-home fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab pink">
+        <a href="modules"><i class="fas fa-book-open fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab yellow">
+        <a href="games"><i class="fas fa-gamepad fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab teal">
+       <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
+          <p></p>
+      </div>
   </div>
+</div>
 
 </body>
 
