@@ -1,0 +1,24 @@
+{"gameInfo": 
+    [
+        {
+        "id": 1,
+        "name": "Match the Note",
+        "preview" : "videopreview1.png",
+        "instructions": "Look at the note on the screen. Identify which letter corresponds with the note."
+        },
+
+        {
+        "id": 2,
+        "name": "Perfect Pitch",
+        "preview" : "videopreview2.png",
+        "instructions": "Listen to the note carefully. Identify which letter corresponds with the note."
+        },
+
+        {
+        "id": 3,
+        "name": "Speed Playing",
+        "preview" : "videopreview3.png",
+        "instructions": "A note will be shown on the screen. Quickly play the correct note. The next note will appear right after."
+        }
+    ]
+    }

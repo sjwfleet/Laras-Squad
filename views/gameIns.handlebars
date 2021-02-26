@@ -4,27 +4,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <link href="/css/details.css" rel="stylesheet">
     </head>
 
-
-  <body class="Font">
-      <div class="HomePage">
-        <h1>Games</h1>
-
-          {{#each gameInfo }}
-          <br>
-          <br>
-			    	<div class="games" id="{{id}}">
-              <a href="gamesIns?game={{name}}" class="inst">
-					      <button class="miniGames btn btn-primary btn-lg">{{name}}</button>
-              </a>
-            </div>
-            <hr>
-            {{/each}}
+ 
+    <body class="Font">
+      <div class="container">
+          <div class="jumbotron">
+          <center> <h1> {{name}} </h1>
+            <img src= "/icons/{{preview}}" alt="Instructions" style="width:90%" class="img">
+            <p>{{instructions}}</p>
+             <button class="miniGames btn btn-primary btn-lg">PLAY</button>
+             <p><a href="/games">Back &raquo;</a></p>
+</center>
+          </div>
+          </div>
 
 
  <!-- navigation bar inspired by a UM Tutorial-->
@@ -45,7 +42,6 @@
        <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
-  </div>
   </div>
 
 </html>
