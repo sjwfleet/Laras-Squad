@@ -1,0 +1,92 @@
+{"quizzes" : [
+    {"quiz1": 
+    [
+        {
+            "name": "Notes on a Staff Quiz",
+            "question": "What note comes afer G on the trebel cleft",
+            "answer": "A",
+            "option1": "H",
+            "option2": "B",
+            "option3": "G"
+        },
+
+        {
+            "name": "Notes on a Staff Quiz",
+            "question": "Where is middle C located on the music staff?",
+            "answer": "In the middle, between the trebel clef and bass clef",
+            "option1": "On the fourth line of the trebel clef",
+            "option2": "In the second space of the bass clef",
+            "option3": "The space above the middle line"
+        },
+
+        {
+            "name": "Notes on a Staff Quiz",
+            "question": "What note is the bass clef named after? ",
+            "answer": "F",
+            "option1": "G",
+            "option2": "D",
+            "option3": "E"
+        }
+    ],
+
+ "quiz2": 
+    [
+        {
+            "name": "Music Symbols Quiz",
+            "question": "What does fp stand for and how do you play it?",
+            "answer": "forte-piano, play loudly then soft.",
+            "option1": "G",
+            "option2": "D",
+            "option3": "E"
+        },
+
+        {
+            "name": "Music Symbols Quiz",
+            "question": "Which abbrevieation indicates to play the loudest?",
+            "answer": "ff, fortissimo",
+            "option1": "f, fortissimo",
+            "option2": "f, forte",
+            "option3": "pp, pianoissimo"
+        },
+
+        {
+            "name": "Music Symbols Quiz",
+            "question": "What articulation indicates to play half the length of a note's value?",
+            "answer": "Staccato",
+            "option1": "Legato",
+            "option2": "Fermata",
+            "option3": "Tie"
+        }
+    ],
+
+ "quiz3": 
+    [
+        {
+            "name": "Major Scales Quiz",
+            "question": "How many major scales are there?",
+            "answer": "12",
+            "option1": "7",
+            "option2": "8",
+            "option3": "13"
+        },
+
+        {
+            "name": "Major Scales Quiz",
+            "question": "How many sharps does D major have?",
+            "answer": "1",
+            "option1": "2",
+            "option2": "3",
+            "option3": "4"
+        },
+
+        {
+            "name": "Major Scales Quiz",
+            "question": "What sharps are in E major?",
+            "answer": "F#, G#, C#, D#",
+            "option1": "F#, G#, A#, C#",
+            "option2": "A#, B#, F#, G#",
+            "option3": "A#, B#, C#, D#"
+        }
+    ]
+}]
+}

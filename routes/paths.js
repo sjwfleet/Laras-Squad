@@ -1,14 +1,18 @@
 //$(document).ready(function() {
 //	initializePage();
 //})
+const { response } = require('express');
 
 
 exports.view = function(req, res) {
 	res.render('homepage');
 }
 
-exports.view1 = function(req, res) {
-	res.render('modules');
+var modData = require('../modInfo.json');
+
+exports.view1 = function(request, response) {
+	console.log(modData);
+	response.render('modules', modData);
 }
 
 exports.view2 = function(req, res) {
@@ -19,10 +23,17 @@ exports.view3 = function(req, res) {
 	res.render('prize');
 }
 
-const { response } = require('express');
+exports.view4 = function(req, res) {
+	res.render('quizzes');
+}
+
+//const { response } = require('express');
+
 var data = require('../dataIns.json');
 
 exports.viewG = function(request, response){
 	console.log(data);
 	response.render('games', data);
 };
+
+

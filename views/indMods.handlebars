@@ -4,16 +4,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <link href="/css/details.css" rel="stylesheet">
-      </head>
+    </head>
 
-    <body>
-      <div class="jumbotron HomePage">
-        <h1> Achievements </h1>
+ 
+    <body class="Font">
+      <div class="jumbotron Homepage">
+        <h1> {{title}} </h1>
       </div>
+
+    <div class="container">
+      <center>
+        <iframe width="device-width" height="300" src="{{video}}"></iframe>
+
+        <!--link button to specific quiz -->
+        <button class="btn btn-primary btn-lg">Take Quiz</button>
+        <p><a href="/modules">Back &raquo;</a></p>
+
+      </center>
+    </div>
 
 
  <!-- navigation bar inspired by a UM Tutorial-->
@@ -34,7 +46,7 @@
        <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
-  </div>
-  
+    </div>
+
   </body>
 </html>

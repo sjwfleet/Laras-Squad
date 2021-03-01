@@ -13,8 +13,11 @@
 
   <body class="Font">
       <div class="HomePage">
-        <h1>Games</h1>
-
+        <div class="jumbotron">
+            <h1>Games</h1>
+        </div>
+      
+          <div class="container">
           {{#each gameInfo }}
           <br>
           <br>
@@ -23,9 +26,10 @@
 					      <button class="miniGames btn btn-primary btn-lg">{{name}}</button>
               </a>
             </div>
-            <hr>
+            <br>
+            <br>
             {{/each}}
-
+          </div>
 
  <!-- navigation bar inspired by a UM Tutorial-->
      <div class ="tab-container">
@@ -45,7 +49,7 @@
        <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
-  </div>
+      </div>
   </div>
 
 </html>

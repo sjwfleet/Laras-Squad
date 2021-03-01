@@ -1,32 +1,41 @@
 <html>
 
-<head>
-	<title>Welcome Bruv</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <link href="/css/details.css" rel="stylesheet">
-</head>
-<body>
-	<div class="HomePage">
-		<h1> Today's Lesson </h1>
+    <head>
+	      <title>Welcome Bruv</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <link href="/css/details.css" rel="stylesheet">
+    </head>
 
-        <div class="video pfp"> </div>
-        <button class="play btn btn-primary btn-lg"> <img scr="/icons/playButton.png" alt="PlayButton" style="width:100%">  </button>
-        <p> Transcription: Hello! Today we will be learning about the D major scale. 
-            This scale has two sharps, F sharp and C sharp. In order to play the scale, 
-            it will sound like this. [Piano keys playing]. When playing this scale as a
-             warm up it is easier to move your right thumb on the G while your left hand 
-             stays in... </p>
-            
-        
-        <a><button class = "btn btn-primary btn-lg">
-         <center> Take the quiz</center> </button> </a>
+
+    <body>
+      <div class="jumbotron Homepage">
+       
+          <h1> Modules </h1>
+       
     
+      </div>
+
+    <div class="Homepage container">
+      {{#each modInfo}}
+      <br>
+      <br>
+
+			<div class="mod" id="{{id}}">
+        <a href="indMods?mod={{title}}">
+				<button class="btn btn-primary btn-lg">{{title}}</button>
+        </a>
+      </div>
+
+      <br>
+      <br>
+      {{/each}}          
+  </div>
 
 
 <!-- navigation bar inspired by a UM Tutorial-->
@@ -47,9 +56,9 @@
        <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
-  </div>
-  </div>
+      </div>
 
 
-
+    
+    </body>
 </html>

@@ -7,24 +7,48 @@
         <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
+        <!-- linked js file -->
+        <script src="/js/quizFeedback.js"></script>
         <link href="/css/details.css" rel="stylesheet">
     </head>
 
  
     <body class="Font">
-      <div class="jumbotron Homepage">
-        <h1> {{name}} </h1>
+
+      <div class="jumbotron"> 
+          <h1> {{name}} </h1>
+          <h3> <!-- ideally: Question --/3 here--> </h3>
       </div>
-          
+
       <div class="container">
-        <center>    
-        <img src= "/icons/{{preview}}" alt="Instructions" style="width:90%" class="img">
-        <p>{{instructions}}</p>
-        <button class="miniGames btn btn-primary btn-lg">PLAY</button>
-        <p><a href="/games">Back &raquo;</a></p>
+        <center> 
+       
+          {{#each quizzes}}<!-- need help here -->
+           <button class="btn btn-primary btn-lg">{{option1}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg">{{answer}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg">{{option2}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg">{{option3}}</button>
+          {{/each}}
         </center>
       </div>
-   
+              
+  <!-- 
+  potential code to randomize order 
+  var ul = document.querySelector('ul');
+  for (var i = ul.children.length; i >= 0; i--) {
+  ul.appendChild(ul.children[Math.random() * i | 0]);}
+                
+  got from
+  https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
+  -->
+        
+       
 
 
  <!-- navigation bar inspired by a UM Tutorial-->
@@ -45,7 +69,7 @@
        <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
-      </div>
+    </div>
 
   </body>
 </html>

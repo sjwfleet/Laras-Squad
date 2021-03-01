@@ -12,7 +12,9 @@ var homepage = require('./routes/paths');
 var modules = require('./routes/paths');
 var games = require('./routes/paths');
 var prize = require('./routes/paths');
-var gameIns = require('./routes/gameIns')
+var gameIns = require('./routes/gameIns');
+var indMods = require('./routes/modInfo');
+
 
 // Example route
 // var user = require('./routes/user');
@@ -43,7 +45,10 @@ app.get('/homepage', homepage.view);
 app.get('/modules', modules.view1);
 app.get('/games', games.viewG);
 app.get('/prize', prize.view3);
-app.get('/gamesIns', gameIns.viewG)
+app.get('/gamesIns', gameIns.viewG);
+app.get('/indMods', indMods.viewM);
+
+
 
 app.get('/', function(req, res){
   res.sendFile(__dirname + 'index.html');
