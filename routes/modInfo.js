@@ -1,4 +1,4 @@
-var data = require('../modInfo.json');
+var data = require('../public/data/modInfo.json');
 
 exports.viewM = function(request, response){
     var mod = request.query.mod;

@@ -15,6 +15,12 @@
     margin-right: auto;
 }
 
+.container {
+  overflow: auto;
+  max-height: 70%;
+  
+}
+
 .video {
     width: 500px;
     height: 300px;
@@ -81,6 +87,7 @@
 body {
   font-family: 'Open-Sans', sans-serif;
 }
+
 
 /*
 h1{

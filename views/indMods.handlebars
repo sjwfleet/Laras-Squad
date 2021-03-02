@@ -7,6 +7,8 @@
         <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
+         <!-- linked js file -->
+        <script src="/js/quizFeedback.js"></script>
         <link href="/css/details.css" rel="stylesheet">
     </head>
 
@@ -21,7 +23,8 @@
         <iframe width="device-width" height="300" src="{{video}}"></iframe>
 
         <!--link button to specific quiz -->
-        <button class="btn btn-primary btn-lg">Take Quiz</button>
+        <a href="/quiz/{{id}}/0/">
+        <button class="btn btn-primary btn-lg">Take Quiz</button></a>
         <p><a href="/modules">Back &raquo;</a></p>
 
       </center>

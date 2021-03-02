@@ -4,21 +4,71 @@
         "id": 1,
         "name": "Match the Note",
         "preview" : "videopreview1.png",
-        "instructions": "Look at the note on the screen. Identify which letter corresponds with the note."
+        "instructions": "Look at the note on the screen. Identify which letter corresponds with the note.",
+
+        "play": 
+            [
+                { 
+                    "question": "What note is shown below?",
+                    "image": "/public/images/bass_clef_F.png",
+                    "answer":"F",
+                    "option1":"G",
+                    "option2":"E",
+                    "option3":"A"
+                },
+                { 
+                    "question": "What note is shown below?",
+                    "image": "/public/images/treble_clef_D.png",
+                    "answer":"D",
+                    "option1":"C",
+                    "option2":"E",
+                    "option3":"B"
+                    },
+                { 
+                    "question": "What note is shown below?",
+                    "image": "<img src='/public/images/treble_clef_G.png'>",
+                    "answer":"G",
+                    "option1":"B",
+                    "option2":"F",
+                    "option3":"E"
+                }
+            ]
         },
 
         {
         "id": 2,
         "name": "Perfect Pitch",
         "preview" : "videopreview2.png",
-        "instructions": "Listen to the note carefully. Identify which letter corresponds with the note."
-        },
+        "instructions": "Listen to the note carefully. Identify which letter corresponds with the note.",
 
-        {
-        "id": 3,
-        "name": "Speed Playing",
-        "preview" : "videopreview3.png",
-        "instructions": "A note will be shown on the screen. Quickly play the correct note. The next note will appear right after."
+        "play": 
+            [
+                { 
+                    "question": "What note is being played?",
+                    "audio": "/public/audio/Asharp.mp3",
+                    "answer":"A#",
+                    "option1":"G#",
+                    "option2":"E#",
+                    "option3":"F#"
+                },
+                { 
+                    "question": "What note is being played?",
+                    "audio": "/public/audio/Csharp.mp3",
+                    "answer":"C#",
+                    "option1":"D#",
+                    "option2":"E#",
+                    "option3":"G#"
+                    },
+                { 
+                    "question": "What note is being played?",
+                    "audio": "/public/audio/F.mp3",
+                    "answer":"F",
+                    "option1":"B",
+                    "option2":"G",
+                    "option3":"E"
+                }
+            ]
         }
+
     ]
 }

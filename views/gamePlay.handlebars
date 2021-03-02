@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <link href="/css/details.css" rel="stylesheet">
+    </head>
+
+ 
+    <body class="Font">
+      <div class="jumbotron Homepage">
+        <h1> {{name}} </h1>
+      </div>
+          
+      <div class="container quiz">
+        <center>    
+       {{#each play}}
+          <div>
+          <h2>{{question}}</h2>
+          <img src={{image}}>
+          <figure>
+
+           <figcaption>Listen to the Note:</figcaption>
+           <audio controls src={{audio}}>
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+          </figure>
+          
+          <br>
+          <br>
+           <button class="btn btn-primary btn-lg" style="device-width">{{option1}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg" style="device-width">{{answer}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg" style="device-width">{{option2}}</button>
+           <br>
+           <br>
+           <button class="btn btn-primary btn-lg" style="device-width">{{option3}}</button>
+           </div>
+           <br>
+           <br>
+           <br>
+           <br>
+          {{/each}}
+        </center>
+      </div>
+   
+
+
+ <!-- navigation bar inspired by a UM Tutorial-->
+     <div class ="tab-container">
+      <div class="tab purple active">
+        <a href="../../../homepage"><i class="fas fa-home fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab pink">
+        <a href="../../../modules"><i class="fas fa-book-open fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab yellow">
+        <a href="../../../games"><i class="fas fa-gamepad fa-3x"></i></a>
+          <p></p>
+      </div>
+      <div class="tab teal">
+       <a href="../../../prize"><i class="fas fa-trophy fa-3x"></i></a>
+          <p></p>
+      </div>
+      </div>
+
+  </body>
+</html>

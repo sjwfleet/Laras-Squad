@@ -1,0 +1,126 @@
+{"modInfo": 
+    [
+        {
+        "id": 1,
+        "title": "Notes On a Staff",
+        "video" : "https://www.youtube.com/embed/v=gEI7uYOCQXo",
+        "quiz": 
+            [
+                {
+                    "name": "Notes on a Staff Quiz",
+                    "question": "What note comes after G on the treble cleft",
+                    "answer": "A",
+
+                    "option1": "H",
+                    "option2": "A",
+                    "option3": "G",
+                    "option4":"B"
+                },
+        
+                {
+                    "name": "Notes on a Staff Quiz",
+                    "question": "Where is middle C located on the music staff?",
+                    "answer": "In the middle, between the treble clef and bass clef",
+
+                    "option1": "In the middle, between the treble clef and bass clef",
+                    "option2": "In the second space of the bass clef",
+                    "option3": "The space above the middle line",
+                    "option4":"On the fourth line of the treble clef"
+                },
+        
+                {
+                    "name": "Notes on a Staff Quiz",
+                    "question": "What note is the bass clef named after? ",
+                    "answer": "F",
+
+                    "option1": "G",
+                    "option2": "D",
+                    "option3": "E",
+                    "option4":"F"
+                }
+            ]
+        },
+
+        {
+        "id": 2,
+        "title": "Music Symbols",
+        "video" : "https://www.youtube.com/embed/v=EY9_B0gq4Ss",
+        "quiz": 
+            [
+                {
+                    "name": "Music Symbols Quiz",
+                    "question": "What does fp stand for and how do you play it?",
+                    "answer": "forte-piano, play loudly then soft.",
+
+                    "option1": "fortissimo-pinoissimo, play loudly then soft.",
+                    "option2": "forte-piano, play loudly then soft.",
+                    "option3": "for-piano, play loudly then soft. ",
+                    "option4": "forte-piannissimo, play loudly then soft."
+                },
+
+                {
+                    "name": "Music Symbols Quiz",
+                    "question": "Which abbrevieation indicates to play the loudest?",
+                    "answer": "ff, fortissimo",
+
+                    "option1": "f, fortissimo",
+                    "option2": "f, forte",
+                    "option3": "ff, fortissimo",
+                    "option4":"pp, pianoisimo"
+                },
+
+                {
+                    "name": "Music Symbols Quiz",
+                    "question": "What articulation indicates to play half the length of a note's value?",
+                    "answer": "Staccato",
+
+                    "option1": "Legato",
+                    "option2": "Fermata",
+                    "option3": "Tie",
+                    "option4":"Staccato"
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+        "title": "Major Scales",
+        "video" : "https://www.youtube.com/embed/v=pF4DegadNYs",
+        "quiz": 
+            [
+                {
+                    "name": "Major Scales Quiz",
+                    "question": "How many major scales are there?",
+                    "answer": "12",
+
+                    "option1": "12",
+                    "option2": "8",
+                    "option3": "13",
+                    "option4":"7"
+                },
+
+                {
+                    "name": "Major Scales Quiz",
+                    "question": "How many sharps does D major have?",
+                    "answer": "1",
+
+                    "option1": "1",
+                    "option2": "2",
+                    "option3": "3",
+                    "option4":"4"
+                },
+
+                {
+                    "name": "Major Scales Quiz",
+                    "question": "What sharps are in E major?",
+                    "answer": "F#, G#, C#, D#",
+
+                    "option1": "F#, G#, A#, C#",
+                    "option2": "A#, B#, F#, G#",
+                    "option3": "F#, G#, C#, D",
+                    "option4":"A#, B#, C#, D#"
+                }
+            ]
+        }
+    ]
+}

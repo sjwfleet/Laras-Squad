@@ -13,30 +13,53 @@
     </head>
 
  
-    <body class="Font">
+    <body class="Font Homepage">
 
       <div class="jumbotron"> 
-          <h1> {{name}} </h1>
+          <h1> {{title}} Quiz </h1>
+          <input type="hidden" id="quizId" value={{id}}>
           <h3> <!-- ideally: Question --/3 here--> </h3>
       </div>
 
-      <div class="container">
+      <div class="container quiz">
         <center> 
        
-          {{#each quizzes}}<!-- need help here -->
-           <button class="btn btn-primary btn-lg">{{option1}}</button>
+          <!-- need help here -->
+          {{#each quiz}}
+          <div>
+          <h2>{{question}}</h2>
+           <button class="q btn btn-primary btn-lg" style="device-width">{{option1}}</button>
            <br>
            <br>
-           <button class="btn btn-primary btn-lg">{{answer}}</button>
+           <button class="q btn btn-primary btn-lg">{{option2}}</button>
            <br>
            <br>
-           <button class="btn btn-primary btn-lg">{{option2}}</button>
+           <button class="q btn btn-primary btn-lg">{{option3}}</button>
            <br>
            <br>
-           <button class="btn btn-primary btn-lg">{{option3}}</button>
+           <button class="q btn btn-primary btn-lg">{{option4}}</button>
+           </div>
+           <br>
+           <br>
+           <br>
+           <br>
           {{/each}}
+          
+          <a href="../../../quizResults">
+          <button class="btn btn-primary btn-lg">Submit Form</button></a>
+         <br>
+         <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+          
         </center>
       </div>
+       
               
   <!-- 
   potential code to randomize order 
@@ -54,19 +77,19 @@
  <!-- navigation bar inspired by a UM Tutorial-->
      <div class ="tab-container">
       <div class="tab purple active">
-        <a href="homepage"><i class="fas fa-home fa-3x"></i></a>
+        <a href="../../../homepage"><i class="fas fa-home fa-3x"></i></a>
           <p></p>
       </div>
       <div class="tab pink">
-        <a href="modules"><i class="fas fa-book-open fa-3x"></i></a>
+        <a href="../../../modules"><i class="fas fa-book-open fa-3x"></i></a>
           <p></p>
       </div>
       <div class="tab yellow">
-        <a href="games"><i class="fas fa-gamepad fa-3x"></i></a>
+        <a href="../../../games"><i class="fas fa-gamepad fa-3x"></i></a>
           <p></p>
       </div>
       <div class="tab teal">
-       <a href="prize"><i class="fas fa-trophy fa-3x"></i></a>
+       <a href="../../../prize"><i class="fas fa-trophy fa-3x"></i></a>
           <p></p>
       </div>
     </div>
