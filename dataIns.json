@@ -10,7 +10,7 @@
             [
                 { 
                     "question": "What note is shown below?",
-                    "image": "/public/images/bass_clef_F.png",
+                    "image": "/images/bass_clef_F.png",
                     "answer":"F",
                     "option1":"G",
                     "option2":"E",
@@ -18,7 +18,7 @@
                 },
                 { 
                     "question": "What note is shown below?",
-                    "image": "/public/images/treble_clef_D.png",
+                    "image": "/images/treble_clef_D.png",
                     "answer":"D",
                     "option1":"C",
                     "option2":"E",
@@ -26,7 +26,7 @@
                     },
                 { 
                     "question": "What note is shown below?",
-                    "image": "<img src='/public/images/treble_clef_G.png'>",
+                    "image": "/images/treble_clef_G.png",
                     "answer":"G",
                     "option1":"B",
                     "option2":"F",
@@ -45,7 +45,7 @@
             [
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audios/A.mp3",
+                    "audio": "/audios/A.mp3",
                     "answer":"A#",
                     "option1":"G#",
                     "option2":"E#",
@@ -53,7 +53,7 @@
                 },
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audios/C.mp3",
+                    "audio": "/audios/C.mp3",
                     "answer":"C#",
                     "option1":"D#",
                     "option2":"E#",
@@ -61,7 +61,7 @@
                     },
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audios/F.mp3",
+                    "audio": "/audios/F.mp3",
                     "answer":"F",
                     "option1":"B",
                     "option2":"G",
