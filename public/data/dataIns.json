@@ -12,24 +12,32 @@
                     "question": "What note is shown below?",
                     "image": "/images/bass_clef_F.png",
                     "answer":"F",
+
                     "option1":"G",
                     "option2":"E",
-                    "option3":"A"
+                    "option3":"F",
+                    "option4":"A"
+
                 },
                 { 
                     "question": "What note is shown below?",
                     "image": "/images/treble_clef_D.png",
                     "answer":"D",
-                    "option1":"C",
+
+                    "option1":"D",
                     "option2":"E",
-                    "option3":"B"                },
+                    "option3":"B",
+                    "option4":"C"
+                },
                 { 
                     "question": "What note is shown below?",
                     "image": "/images/treble_clef_G.png",
                     "answer":"G",
+
                     "option1":"B",
                     "option2":"F",
-                    "option3":"E"
+                    "option3":"G",
+                    "option4":"E"
                 }
             ]
         },
@@ -46,25 +54,31 @@
                     "question": "What note is being played?",
                     "audio": "/audios/A.mp3",
                     "answer":"A#",
+
                     "option1":"G#",
                     "option2":"E#",
-                    "option3":"F#"
+                    "option3":"F#",
+                    "option4":"A#"
                 },
                 { 
                     "question": "What note is being played?",
                     "audio": "/audios/C.mp3",
                     "answer":"C#",
+
                     "option1":"D#",
-                    "option2":"E#",
-                    "option3":"G#"
+                    "option2":"C#",
+                    "option3":"G#",
+                    "option4":"E#"
                     },
                 { 
                     "question": "What note is being played?",
                     "audio": "/audios/F.mp3",
                     "answer":"F",
+
                     "option1":"B",
                     "option2":"G",
-                    "option3":"E"
+                    "option3":"E",
+                    "option4":"F"
                 }
             ]
         },
@@ -80,17 +94,21 @@
                         "question": "What note is being played?",
                         "image":"/images/F.png",
                         "answer":"F",
-                        "option1":"B",
+
+                        "option1":"F",
                         "option2":"G",
-                        "option3":"E"
+                        "option3":"E",
+                        "option4":"B"
                     },
                     { 
                         "question": "What note is being played?",
                         "image": "/images/A.png",
                         "answer":"A#",
+
                         "option1":"G#",
-                        "option2":"E#",
-                        "option3":"F#"
+                        "option2":"A#",
+                        "option3":"F#",
+                        "option4":"E#"
                     },
                     
                   
@@ -98,9 +116,11 @@
                         "question": "What note is being played?",
                         "image": "/images/C.png",
                         "answer":"C#",
+
                         "option1":"D#",
                         "option2":"E#",
-                        "option3":"G#"
+                        "option3":"C#",
+                        "option4":"G#"
                         }
                 ]
             }

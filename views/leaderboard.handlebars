@@ -19,7 +19,7 @@
             padding: 10px; 
         } 
         /* https://www.geeksforgeeks.org/how-to-vertically-align-text-next-to-an-image-using-css/ */
-        </style> 
+      </style> 
     </head>
 
 
@@ -32,11 +32,15 @@
         <div class="container">
             {{#each stats}}
 	        <div class="aligned">
+        
 		    <img class="img-responsive img-rounded" src="{{imageURL}}" alt="Person" style="width: 15%"> 
+          
+        
             <span class="userName"style="background-color: aliceblue">
             {{name}} </span> 
+           
             <span class="userName"style="background-color: aliceblue" id="right" style="float:right">{{score}}</span>
-    
+          
 	    </div>
 	    <hr>
 	    {{/each}}

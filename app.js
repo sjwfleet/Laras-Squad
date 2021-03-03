@@ -19,6 +19,7 @@ var quizResults = require('./routes/paths');
 var gamePlay = require('./routes/paths');
 var leaderboard = require('./routes/paths');
 var add = require('./routes/add');
+var gameScore = require('./routes/paths'); //edit here;
 
 // Example route
 // var user = require('./routes/user');
@@ -57,6 +58,7 @@ app.get('/gamePlay/:id/:gameNum/', gamePlay.playG);
 app.get('/quizData', quizResults.viewJsonData);
 app.get('/leaderboard', leaderboard.viewLead);
 app.get('/leaderboard/add', add.addScore);
+app.get('/gameData', gameScore.viewJsonData2); //edit here
 
 
 

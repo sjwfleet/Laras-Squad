@@ -1,4 +1,4 @@
-var data = require('../dataIns.json');
+var data = require('../public/data/dataIns.json');
 
 exports.viewG = function(request, response){
     var game = request.query.game;

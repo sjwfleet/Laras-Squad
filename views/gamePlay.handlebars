@@ -15,6 +15,7 @@
     <body class="Font">
       <div class="jumbotron Homepage">
         <h1> {{name}} </h1>
+         <input type="hidden" id="gameId" value={{id}}><!--here-->
       </div>
           
       <div class="container quiz">
@@ -37,16 +38,16 @@
           <br>
           <br>
           <div>
-           <button value="0" class="btn quiz-button g" id="1"  style="device-width">{{option1}}</button>
+           <button class="btn quiz-button g" id="1"  style="device-width">{{option1}}</button>
            <br>
            <br>
-           <button value="500"class="btn quiz-button g" id="2" style="device-width">{{answer}}</button>
+           <button class="btn quiz-button g" id="2" style="device-width">{{option2}}</button>
            <br>
            <br>
-           <button value="0" class="btn quiz-button g" id="3" style="device-width">{{option2}}</button>
+           <button class="btn quiz-button g" id="3" style="device-width">{{option3}}</button>
            <br>
            <br>
-           <button value="0" class="btn quiz-button g" id="4" style="device-width">{{option3}}</button>
+           <button class="btn quiz-button g" id="4" style="device-width">{{option4}}</button>
            </div>
            <br>
            <br>

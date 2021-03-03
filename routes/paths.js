@@ -22,11 +22,11 @@ exports.view3 = function(req, res) {
 	res.render('prize');
 }
 
-	var lead = require('../leader.json');
+var lead = require('../leader.json');
 exports.viewLead = function(req, res) {
-	console.log(lead);
-	res.render('leaderboard', lead);
- }
+console.log(lead);
+res.render('leaderboard', lead);
+}
 
 exports.view4 = function(req, res) {
 	var lessonId = parseInt(req.params.id);
@@ -55,12 +55,16 @@ exports.view5 = function(req, res) {
 
 //const { response } = require('express');
 
-var dataG = require('../dataIns.json');
+var dataG = require('../public/data/dataIns.json'); //edit here
 
 exports.viewG = function(request, response){
 	console.log(dataG);
 	response.render('games', dataG);
 };
+
+exports.viewJsonData2 = function(request, response) {
+	response.json(dataG); 
+}
 
 exports.playG = function(req, res){
 	var gameId = parseInt(req.params.id);
