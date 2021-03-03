@@ -19,13 +19,13 @@
         
                 {
                     "name": "Notes on a Staff Quiz",
-                    "question": "Where is middle C located on the music staff?",
-                    "answer": "In the middle, between the treble clef and bass clef",
+                    "question": "What notes are on the lines of the trebel cleft?",
+                    "answer": "E, G, B, D, F",
 
-                    "option1": "In the middle, between the treble clef and bass clef",
-                    "option2": "In the second space of the bass clef",
-                    "option3": "The space above the middle line",
-                    "option4":"On the fourth line of the treble clef"
+                    "option1": "E, G, B, D, F",
+                    "option2": "G, B, D, F, G",
+                    "option3": "A, B, C, D, E",
+                    "option4": "E, F, G, A, B"
                 },
         
                 {
@@ -49,13 +49,13 @@
             [
                 {
                     "name": "Music Symbols Quiz",
-                    "question": "What does fp stand for and how do you play it?",
-                    "answer": "forte-piano, play loudly then soft.",
+                    "question": "What does fp stand for?",
+                    "answer": "forte-piano",
 
-                    "option1": "fortissimo-pinoissimo, play loudly then soft.",
-                    "option2": "forte-piano, play loudly then soft.",
-                    "option3": "for-piano, play loudly then soft. ",
-                    "option4": "forte-piannissimo, play loudly then soft."
+                    "option1": "fortissimo-pinoissimo",
+                    "option2": "forte-piano",
+                    "option3": "for-piano",
+                    "option4": "forte-piannissimo"
                 },
 
                 {

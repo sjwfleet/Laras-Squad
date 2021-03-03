@@ -7,6 +7,7 @@
         <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">      
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/games.js"></script>
         <link href="/css/details.css" rel="stylesheet">
     </head>
 
@@ -18,35 +19,52 @@
           
       <div class="container quiz">
         <center>    
+        
        {{#each play}}
-          <div>
+          
           <h2>{{question}}</h2>
+          <div class="extra">
+          {{#if image}}
           <img src={{image}}>
+          {{else}}
           <figure>
-
            <figcaption>Listen to the Note:</figcaption>
            <audio controls="controls"> <source src={{audio}} type="audio/mp3">
           </audio>
           </figure>
-          
+          {{/if}}
+          </div>
           <br>
           <br>
-           <button class=" btn quiz-button" style="device-width">{{option1}}</button>
+          <div>
+           <button value="0" class="btn quiz-button g" id="1"  style="device-width">{{option1}}</button>
            <br>
            <br>
-           <button class="btn quiz-button"  style="device-width">{{answer}}</button>
+           <button value="500"class="btn quiz-button g" id="2" style="device-width">{{answer}}</button>
            <br>
            <br>
-           <button class="btn quiz-button" style="device-width">{{option2}}</button>
+           <button value="0" class="btn quiz-button g" id="3" style="device-width">{{option2}}</button>
            <br>
            <br>
-           <button class="btn quiz-button" style="device-width">{{option3}}</button>
+           <button value="0" class="btn quiz-button g" id="4" style="device-width">{{option3}}</button>
            </div>
            <br>
            <br>
            <br>
            <br>
           {{/each}}
+
+          <p class="score">0</p>
+          
+          <a href="../../../leaderboard">
+          <!--<button class="btn quiz-button">-->
+            <input type="submit" id="submitBtn" class="btn new-button" value="End Game"></input></a>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
         </center>
       </div>
    

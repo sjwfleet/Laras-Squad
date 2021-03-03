@@ -1,6 +1,3 @@
-// learned from https://simplestepscode.com/javascript-quiz-tutorial/
-'use strict';
-let score = 0;
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
     initializePage();
@@ -13,9 +10,8 @@ function initializePage() {
 
     console.log("Javascript connected!");
 
-    $(".q").click(answerSelected);
-    $(".q").removeClass("quiz-button");
-    $(".q").addClass("correct");
+    $("button.q").click(answerSelected);
+   
     console.log("wtf");
 
 }
@@ -24,13 +20,17 @@ function initializePage() {
 function answerSelected(e) {
     e.preventDefault();
     console.log("getting there");
+    $(this).css("background-color", "green");
 
     var x = $(this).text();
     $(this).text(answer(x));
 }
 
+var qscore = 0;
+var qscoreNew = 0;
 function answer(selected) {
     // get the quiz id
+    
     var qid = $('#quizId').val();
 
     $.getJSON('/quizData', function(data) {
@@ -52,12 +52,16 @@ function answer(selected) {
                     console.log(did + " THIS IS THE ANSWER");
                     if (did == selected) {
 
-                        score++;
+                        console.log("adding up");
+                        qscoreNew++;
+                       
+                        $('.qscore').text(qscoreNew);
+
                         console.log("done did it");
 
                     }
                     else {
-
+                        
                         console.log("wrong!!");
                     }
                  }
@@ -65,4 +69,5 @@ function answer(selected) {
         }
     });
 }
+//module.exports = {qscoreNew};
 

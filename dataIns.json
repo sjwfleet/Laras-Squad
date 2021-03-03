@@ -22,8 +22,7 @@
                     "answer":"D",
                     "option1":"C",
                     "option2":"E",
-                    "option3":"B"
-                    },
+                    "option3":"B"                },
                 { 
                     "question": "What note is shown below?",
                     "image": "/images/treble_clef_G.png",
@@ -68,7 +67,44 @@
                     "option3":"E"
                 }
             ]
-        }
+        },
+        {
+            "id": 3,
+            "name": "Which Key?",
+            "preview" : "videopreview2.png",
+            "instructions": "Corresspond the given note to the keys on the piano.",
+    
+            "play": 
+                [
+                      { 
+                        "question": "What note is being played?",
+                        "image":"/images/F.png",
+                        "answer":"F",
+                        "option1":"B",
+                        "option2":"G",
+                        "option3":"E"
+                    },
+                    { 
+                        "question": "What note is being played?",
+                        "image": "/images/A.png",
+                        "answer":"A#",
+                        "option1":"G#",
+                        "option2":"E#",
+                        "option3":"F#"
+                    },
+                    
+                  
+                    { 
+                        "question": "What note is being played?",
+                        "image": "/images/C.png",
+                        "answer":"C#",
+                        "option1":"D#",
+                        "option2":"E#",
+                        "option3":"G#"
+                        }
+                ]
+            }
+
 
     ]
 }

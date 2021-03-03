@@ -1,0 +1,19 @@
+{
+	"stats": [
+		{
+			"name": "Sam Fleet",
+			"score": "123890945235",
+			"imageURL": "/images/boy_icon.png"			
+		},
+		{
+			"name": "Lara Canonizado",
+			"score": "8495390",
+			"imageURL": "/images/girl_icon.png"			
+		},
+		{
+			"name": "Avery Blas",
+			"score": "847359",
+			"imageURL": "/images/girl_icon.png"			
+		}
+	]
+}

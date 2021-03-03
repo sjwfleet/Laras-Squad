@@ -22,6 +22,12 @@ exports.view3 = function(req, res) {
 	res.render('prize');
 }
 
+	var lead = require('../leader.json');
+exports.viewLead = function(req, res) {
+	console.log(lead);
+	res.render('leaderboard', lead);
+ }
+
 exports.view4 = function(req, res) {
 	var lessonId = parseInt(req.params.id);
 	var quizNum = parseInt(req.params.quizNum);

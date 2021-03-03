@@ -17,6 +17,8 @@ var indMods = require('./routes/modInfo');
 var quiz = require('./routes/paths');
 var quizResults = require('./routes/paths');
 var gamePlay = require('./routes/paths');
+var leaderboard = require('./routes/paths');
+var add = require('./routes/add');
 
 // Example route
 // var user = require('./routes/user');
@@ -53,6 +55,8 @@ app.get('/quiz/:id/:quizNum/', quiz.view4);
 app.get('/quizResults', quizResults.view5);
 app.get('/gamePlay/:id/:gameNum/', gamePlay.playG);
 app.get('/quizData', quizResults.viewJsonData);
+app.get('/leaderboard', leaderboard.viewLead);
+app.get('/leaderboard/add', add.addScore);
 
 
 

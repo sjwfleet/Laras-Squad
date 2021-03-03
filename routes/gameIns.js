@@ -18,3 +18,8 @@ exports.viewG = function(request, response){
     }
 };
 
+
+
+
+
+
