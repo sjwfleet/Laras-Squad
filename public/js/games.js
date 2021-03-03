@@ -19,7 +19,7 @@ console.log("Button clicked")
   // In an event handler, $(this) refers to     
   // the object that triggered the event  
    
-$(this).css("background-color", "green");
+$(this).css({"background-color": "#1BC47D", "color": "#FFF"});
 //$("div.quiz").toggle();
 console.log("adding up");
 scoreNew += 500

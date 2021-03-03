@@ -20,7 +20,7 @@ function initializePage() {
 function answerSelected(e) {
     e.preventDefault();
     console.log("getting there");
-    $(this).css("background-color", "green");
+    $(this).css({"background-color": "#1BC47D", "color": "#FFF"});
 
     var x = $(this).text();
     $(this).text(answer(x));
