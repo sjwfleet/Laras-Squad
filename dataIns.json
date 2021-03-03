@@ -45,7 +45,7 @@
             [
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audio/Asharp.mp3",
+                    "audio": "/public/audios/A.mp3",
                     "answer":"A#",
                     "option1":"G#",
                     "option2":"E#",
@@ -53,7 +53,7 @@
                 },
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audio/Csharp.mp3",
+                    "audio": "/public/audios/C.mp3",
                     "answer":"C#",
                     "option1":"D#",
                     "option2":"E#",
@@ -61,7 +61,7 @@
                     },
                 { 
                     "question": "What note is being played?",
-                    "audio": "/public/audio/F.mp3",
+                    "audio": "/public/audios/F.mp3",
                     "answer":"F",
                     "option1":"B",
                     "option2":"G",
