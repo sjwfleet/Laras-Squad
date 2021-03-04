@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Welcome to Keyanu Reeves</title>
+        <title>Welcome to PianoBud</title>
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         </style>
@@ -22,7 +22,20 @@
       <div class="jumbotron">
       <h1 id="name">  </h1>
       </div>
-    
+   
+<button onclick="logout()">Logout</button>
+
+<script>
+function logout() {
+      if (window.confirm("Do you want to sign-out?")) {
+      var auth2 = gapi.auth2.getAuthInstance();
+      auth2.signOut().then(function () {
+      console.log('User signed out.');
+      });
+      window.location.href = "/";
+      }
+}
+</script>
       <br>
       <br>
       <div class="pfp" class="mod"> 
