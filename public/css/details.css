@@ -179,19 +179,21 @@ h1{
   max-width: 80%;
 }
 
-#container .row{
-  border: 1px;
-  border-left: 0;
-  border-top: none;
-  margin: 0;
-  padding: 0;
-
+#container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
 }
-
-#container .block{
-  border: 1px;
-  border-bottom: 0;
-  border-right: 0;
-  float: left;
-  width: 128px
+#container .row {
+    margin: 0;
+    padding: 0;
+}
+#container br {
+    clear: both;
+}
+#container .block {
+    float: left;
+    width: 33%;
+    margin-top: 15px;
 }
