@@ -42,14 +42,18 @@
   }
 
   .sign-in {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:  25px;
+    margin-right: 25px;
   }
 
   .sign-in-flex{
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
+    max-width: 90%;
   }
 
   .sign-in-form {

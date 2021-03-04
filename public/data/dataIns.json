@@ -3,7 +3,7 @@
         {
         "id": 1,
         "name": "Match the Note",
-        "preview" : "videopreview1.png",
+        "preview" : "match_the_note_gif.gif",
         "instructions": "Look at the note on the screen. Identify which letter corresponds with the note.",
 
         "play": 
@@ -45,7 +45,7 @@
         {
         "id": 2,
         "name": "Perfect Pitch",
-        "preview" : "videopreview2.png",
+        "preview" : "perfect_pitch_gif.gif",
         "instructions": "Listen to the note carefully. Identify which letter corresponds with the note.",
 
         "play": 
@@ -85,7 +85,7 @@
         {
             "id": 3,
             "name": "Which Key?",
-            "preview" : "videopreview2.png",
+            "preview" : "which_note_gif.gif",
             "instructions": "Corresspond the given note to the keys on the piano.",
     
             "play": 

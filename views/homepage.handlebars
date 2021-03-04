@@ -23,7 +23,7 @@
       <h1 id="name">  </h1>
       </div>
    
-<button onclick="logout()">Logout</button>
+<button style="float: right; margin-right: 20px" class="btn new-button" onclick="logout()">Logout</button>
 
 <script>
 function logout() {
@@ -31,6 +31,7 @@ function logout() {
       var auth2 = gapi.auth2.getAuthInstance();
       auth2.signOut().then(function () {
       console.log('User signed out.');
+      auth2.disconnect();
       });
       window.location.href = "/";
       }
@@ -43,7 +44,8 @@ function logout() {
             <img src='/images/home_image.png' alt="progress plant" class="img-responsive" style="height: auto; width: 75%">
           </center>
     
-      <h2> Level 1</h2>
+      <h2 style="color: #FFF"> Level 1</h2>
+      <br>
       <!-- hard coded link to first mod-->
       <a href="indMods?mod=Notes%20On%20a%20Staff"> 
         <button class="dailyGoal btn new-button"> 
