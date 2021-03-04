@@ -15,6 +15,9 @@
     <meta name="google-signin-client_id" content="507886246064-dmi1bf43lbqthsiuanb7occuu432vqkm.apps.googleusercontent.com">
     <script src="/js/home.js"></script>
         <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+        <script>$(function(){
+          $("#navbar").load("/static/navbar.html");
+          });</script>
     </head>
 
     <body class="Font">
@@ -61,24 +64,7 @@ function logout() {
 
 
     <!-- navigation bar inspired by a UM Tutorial-->
-     <div class ="tab-container">
-      <div class="tab purple active">
-        <a href="homepage"><i class="fas fa-home fa-3x" style="color: #1BC47D"></i></a>
-          <p></p>
-      </div>
-      <div class="tab pink">
-        <a href="modules"><i class="fas fa-book-open fa-3x" style="color: #1BC47D"></i></a>
-          <p></p>
-      </div>
-      <div class="tab yellow">
-        <a href="games"><i class="fas fa-gamepad fa-3x" style="color: #1BC47D"></i></a>
-          <p></p>
-      </div>
-      <div class="tab teal">
-       <a href="prize"><i class="fas fa-trophy fa-3x" style="color: #1BC47D"></i></a>
-          <p></p>
-      </div>
-    </div>
+     <div id="navbar"></div>
   
 
     </body>
