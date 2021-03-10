@@ -159,6 +159,30 @@ h1{
   max-width: 80%;
 }
 
+.quiz-button2 {
+  border-radius: 10px;
+  background: #FEFEFE;
+  color: #1BC47D;
+  font-size: 24px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0, 0.23);
+  width: auto;
+  min-width: 70px;
+  height: 70px;
+  max-width: 80%;
+}
+
+.quiz-button3 {
+  border-radius: 10px;
+  background: #FEFEFE;
+  color: #1BC47D;
+  font-size: 18px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0, 0.23);
+  width: auto;
+  min-width: 80%;
+  height: 50px;
+  max-width: 80%;
+}
+
 .correct {
   border-radius: 10px;
   background: #1BC47D;
@@ -200,4 +224,8 @@ h1{
     float: left;
     width: 33%;
     margin-top: 15px;
+}
+
+.my_container {
+    display: inline-block;
 }
