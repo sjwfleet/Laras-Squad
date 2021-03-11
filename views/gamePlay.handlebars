@@ -16,7 +16,9 @@
       <div class="jumbotron Homepage">
         <h1> {{name}} </h1>
         <p style="color: #FFF; font-size: 24px" class="score">Score: 0</p>
-         <input type="hidden" id="gameId" value={{id}}><!--here-->
+        <!-- Code to track score inspired by this stack overflow question 
+        https://stackoverflow.com/questions/37083175/how-to-use-javascript-to-keep-a-running-score-on-multiple-choice -->
+         <input type="hidden" id="gameId" value={{id}}>
       </div>
           
       <div class="container quiz">

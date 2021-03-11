@@ -1,4 +1,4 @@
-Keeyano Reeves [Temporary Name]
+PianoBud
 ====
 
 Project Description
